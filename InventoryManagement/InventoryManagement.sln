@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductsService", "..\ProductsService\ProductsService.csproj", "{58E8EDE7-6173-4D33-9034-AC47FD40BF13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionsService", "..\TransactionsService\TransactionsService.csproj", "{DAF9347C-6057-4415-8C15-EF7112A32D6C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{D107F4C8-89CC-BEA8-D3D7-CA6B7733353D}"
+	ProjectSection(SolutionItems) = preProject
+		InventoryDB.sql = InventoryDB.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58E8EDE7-6173-4D33-9034-AC47FD40BF13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58E8EDE7-6173-4D33-9034-AC47FD40BF13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58E8EDE7-6173-4D33-9034-AC47FD40BF13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58E8EDE7-6173-4D33-9034-AC47FD40BF13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAF9347C-6057-4415-8C15-EF7112A32D6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAF9347C-6057-4415-8C15-EF7112A32D6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAF9347C-6057-4415-8C15-EF7112A32D6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAF9347C-6057-4415-8C15-EF7112A32D6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7E0BACD-7C41-412F-8083-F722C9F0CCD7}
+	EndGlobalSection
+EndGlobal
